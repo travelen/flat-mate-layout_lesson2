@@ -1,0 +1,190 @@
+.services {
+	background: #F6F6F7;
+}
+
+.services__wrap {
+	width: 1200px;
+	height: 1100px;
+	position: relative;
+	background: #F6F6F7;
+	margin: auto;
+}
+
+.services__row-top {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100px;
+	width: 655px;
+	margin: auto;
+	text-align: center;
+}
+
+.services__head {
+	font: 28px "Segoe UI", sans-serif;
+	color: #333;
+	margin-bottom: 16px;
+}
+
+.services__description {
+	font: 18px "Segoe UI", sans-serif;
+	color: #888;
+	line-height: 34px;
+}
+
+.services__row-center {
+	position: absolute;
+	top: 270px;
+	/*bottom: 220px;*/
+	left: 0;
+	right: 0;
+	width: 860px;
+}
+
+.services__columns {
+	margin: auto;
+}
+
+.services__column {
+	position: relative;
+	display: inline-block;
+	width: 246px;
+	/*height: calc(100% - 100px);*/
+	height: 430px;
+	margin-left: 61px;
+			
+}
+
+.services__column:first-child {
+	margin-left: 0;
+}
+
+/* Модификаторы колонок */
+
+.services__column_free {
+	background: #E9EEF3;
+}
+
+.services__column_pro {
+	background: #DEEBDE;
+}
+
+.services_column_e-price {
+	background: #DEE9EC;
+}
+
+.services__name {
+	font: 26px "Segoe UI", sans-serif;
+	text-align: center;
+	line-height: 55px
+}
+
+/* Модификаторы заголовков услуг */
+
+.services__name_free {
+	color: #f8f8f8;
+	background: #4B596C;
+}
+
+.services__name_pro {
+	color: #f8f8f8;	
+	background: #58AD52;
+}
+
+.services__name_e-price {
+	color: #f8f8f8;
+	background: #52A1AD;
+}
+
+.services__enum {
+	list-style-type: none;
+	text-align: center;
+	display: block;
+	margin-bottom: 60px;
+}
+
+.services__enum-item {
+	font: 20px "Segoe UI", sans-serif;
+	line-height: 85px;
+}
+
+/* Модификаторы списков */
+
+.services__enum-item_free {
+	color: #50565F;
+}
+
+.services__enum-item_free-price {
+	font: bold 22px "Segoe UI", sans-serif;
+	line-height: 85px;
+	color: #60666E;
+}
+
+.services__enum-item_pro {
+	color: #626E61;
+}
+
+.services__enum-item_pro-price {
+	font: bold 22px "Segoe UI", sans-serif;
+	line-height: 85px;
+	color: #48A541;
+}
+
+.services__enum-item_e-price {
+	color: #525760;
+}
+
+.services__enum-item_e-price-price {
+	font: bold 22px "Segoe UI", sans-serif;
+	line-height: 85px;
+	color: #469BA7;
+}
+
+/* модификаторы заголовков колонок */
+/* ... */
+
+.services__accept {
+	font: 26px "Segoe UI", sans-serif;
+	position: relative;
+	top: 30px;
+	display: block;
+	height: 55px;
+	text-decoration: none;
+	text-transform: capitalize;
+	text-align: center;
+	line-height: 55px;
+	background: #000;
+	color: #f8f8f8;	
+}
+
+.services__accept:hover {
+	opacity: 0.85;
+	transition: 0.1s all linear;
+}
+
+.services__accept_free {
+	background: #4B596C;
+}
+
+.services__accept_pro {
+	background: #58AD52;
+}
+
+.services__accept_e-price {
+	background: #52A1AD;
+}
+
+.services__wrap-slogan {
+	background: #E9EAED;
+}
+
+.services__slogan {
+	width: 1200px;
+	height: 120px;
+	background: #E9EAED;
+	text-align: center;
+	font: 28px "Segoe UI", sans-serif;
+	color: #444;
+	line-height: 120px;
+
+}
