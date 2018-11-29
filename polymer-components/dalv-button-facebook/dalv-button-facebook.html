@@ -1,0 +1,37 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="dalv-button-facebook">
+	<style>
+		:host {
+			display: block;
+		}
+		.button-facebook {
+			display: block;
+			width: 50px;
+			height: 50px;
+			border: 1px solid #52AD81;
+			border-radius: 50%;
+			font: 18px Arial;
+			color: #52AD81;
+			background: transparent;
+			line-height: 50px;
+			text-align: center;
+			transition: .3s all ease;
+		}
+		.button-facebook:hover {
+			background: #52AD81;
+			color: white;
+			transition: .3s all ease;
+		}
+	</style>
+	<template>
+		<a class="button-facebook" href="">
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+		</a>
+	</template>
+	<script>
+		Polymer({
+			is: 'dalv-button-facebook'
+		});
+	</script>
+</dom-module>

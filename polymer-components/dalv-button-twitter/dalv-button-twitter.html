@@ -1,0 +1,38 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="dalv-button-twitter">
+	<style>
+		:host {
+			display: inline-block;
+		}
+		.button-twitter {
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			background: #2F3338;
+			border-radius: 50%;
+			font: 20px "Segoe UI", sans-serif;
+			color: #656566;
+			line-height: 50px;
+			text-align: center;
+			box-shadow: 0 0 0 1px #656566;
+			transition: .3s all ease;
+		}
+		.button-twitter:hover {
+			background: #656566;
+			color: #2F3338;
+			box-shadow: 0 0 0 1px #222;
+			transition: .3s all ease;
+		}
+	</style>
+	<template>
+		<a class="button-twitter" href="">
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+		</a>
+	</template>
+	<script>
+		Polymer({
+			is: 'dalv-button-twitter'
+		});
+	</script>
+</dom-module>

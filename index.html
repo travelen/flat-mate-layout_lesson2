@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<script src="polymer-components/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+	<link rel="import" href="polymer-components/dalv-button-facebook/dalv-button-facebook.html">
+	<link rel="import" href="polymer-components/dalv-button-edit/dalv-button-edit.html">
+	<link rel="import" href="polymer-components/dalv-button-twitter/dalv-button-twitter.html">
+	<!-- <link rel="import" href="polymer-components/dalv-button-edit/dalv-button-edit.html"> -->
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="header__wrap">
+				<div class="header__row-top">
+					<!-- Сделать ссылку блочной -->
+					<a class="header__site-logo" href="">
+						Flate Mate
+					</a>
+					<div class="header__reg">
+						<div class="header__reg-question">
+							Have <em class="header__reg-question_cursive">an Account?</em>
+						</div>
+						<a href="" class="header__reg-button-login">
+							login
+						</a>
+					</div>
+				</div>
+				<div class="header__row-bottom">
+					<div class="header__message-box">
+						<h1 class="header__mess-head">Lorem ispum dolor sit amet</h1>
+						<p class="header__mess-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolorem eveniet pariatur dolores? Sed quibusdam unde a amet, quidem facere deserunt, harum culpa</p>
+						<a href="" class="header__mess-button-readmore">read more</a>
+					</div>
+					<div class="header__img-box">
+						
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="box-info">
+				<div class="box-info__wrap">
+					<div class="box-info__icon">
+					
+					</div>
+					<div class="box-info__message">
+						<h2 class="box-info__mess-head">Lorem ispum dolor sit amet</h2>
+						<p class="box-info__mess-description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore veniam ad ipsam sequi, nam repellendus, iusto possimus cupiditate perspiciatis architecto delectus unde deserunt consectetur sint rerum fugiat. Nihil, doloribus, reiciendis!
+						</p>
+					</div>
+					<div class="box-info__buttons">
+						<dalv-button-facebook></dalv-button-facebook>
+						<dalv-button-edit class="button_margin_top20"></dalv-button-edit>
+					</div>
+				</div>
+			</section>
+			<section class="slider">
+				<div class="slider__wrap">				
+					<div class="slider__row-top">
+						<h2 class="slider__head">
+							the modern era of web designing
+						</h2>
+						<p class="slider__short-description">
+							we make wireframe ultra fast, leak proof 
+						</p>
+					</div>
+					<div class="slider__row-bottom">
+						<!--SLIDER NIVO SLIDER-->
+					</div>
+				</div>
+			</section>
+			<section class="services">
+				<div class="services__wrap">
+					<div class="services__row-top">
+						<h2 class="services__head">
+							A wireframe is the primitive skeleton of your website.
+						</h2>
+						<p class="services__description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellendus excepturi, consequatur illo rerum
+						</p>
+					</div>
+					<div class="services__row-center services__columns">
+						<div class="services__column services__column_free">
+							<h3 class="services__name services__name_free">Free</h3>
+							<ul class="services__enum">
+								<li class="services__enum-item services__enum-item_free services__enum-item_free-price">$0/Month</li>
+								<li class="services__enum-item services__enum-item_free">1 Project</li>
+								<li class="services__enum-item services__enum-item_free">5 Members</li>
+								<li class="services__enum-item services__enum-item_free">5 GB</li>
+							</ul>
+							<a href="" class="services__accept services__accept_free">sign up</a>
+						</div>
+						<div class="services__column services__column_pro">
+							<h3 class="services__name services__name_pro">Professional</h3>
+							<ul class="services__enum">
+								<li class="services__enum-item services__enum-item_pro services__enum-item_pro-price">$50/Month</li>
+								<li class="services__enum-item services__enum-item_pro">20 Projects</li>
+								<li class="services__enum-item services__enum-item_pro">50 Members</li>
+								<li class="services__enum-item services__enum-item_pro">100 GB</li>
+							</ul>
+							<a href="" class="services__accept services__accept_pro">buy now</a>
+						</div>
+						<div class="services__column services_column_e-price">
+							<h3 class="services__name services__name_e-price">Enterprise</h3>
+							<ul class="services__enum">
+								<li class="services__enum-item services__enum-item_e-price services__enum-item_e-price-price">$90/Month</li>
+								<li class="services__enum-item services__enum-item_e-price">Unlimited</li>
+								<li class="services__enum-item services__enum-item_e-price">Unlimited</li>
+								<li class="services__enum-item services__enum-item_e-price">500 GB</li>
+							</ul>
+							<a href="" class="services__accept services__accept_e-price">buy now</a>
+						</div>
+					</div>				
+				</div>
+				<div class="services__wrap-slogan">
+					<p class="services__slogan">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</p>
+				</div>
+			</section>
+			<section class="box-video">
+				<div class="box-video__wrap">
+					
+				</div>
+			</section>
+			<section class="feedback">
+				<div class="feedback__wrap">
+					<a class="icon-message" href="">
+						
+					</a>
+					<form action="" class="feedback__box-form">
+						<div class="feedback__box-name">
+							<label for="name" class="feedback__label">Name<span class="feedback__label_star_red">*</span></label>
+							<input type="text" id="name" class="feedback__input">
+						</div>
+						<div class="feedback__box-email">
+							<label for="email" class="feedback__label">E-Mail<span class="feedback__label_star_red">*</span></label>
+							<input type="text" id="email" class="feedback__input">
+						</div>
+						<div class="feedback__box-message">
+							<label for="mess" class="feedback__label">Message<span class="feedback__label_star_red">*</span></label>
+							<textarea name="" id="mess" class="feedback__textarea" cols="30" rows="10"></textarea>
+						</div>
+						<input type="submit" value="send" class="feedback__send">
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__wrap">
+				<h3 class="footer__logo">flate mate</h3>
+				<p class="footer__by">Designed By WWWW.CSSAUTHOR.COM</p>
+				<div class="footer__soc-nets">
+					<!-- <a href="" class="footer__button-twitter footer__button-twitter_margin-r_30"><i class="fa fa-twitter" aria-hidden="true"></i></a> -->
+
+
+
+					<!-- Доделать общий интерфейс кнопок 
+						 И с помощью модификаторов менять стили
+						 в разных местах сайта
+					 -->
+
+					<dalv-button-twitter class="button_margin-right_30px"></dalv-button-twitter>
+					<a href="" class="footer__button-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
